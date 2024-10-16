@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    height: 100%;
+    display: flex;
+}
+
+
+/* Left section */
+.img-wrap {
+    display: flex;
+    position: relative;
+}
+
+#bg {
+    max-height: 100vh;
+}
+
+.banner {
+    position: absolute;
+    display: flex;
+    top: 12rem;
+    width: 100%;
+    padding: 10px;
+    box-sizing:border-box;
+    background-color: rgb(0,0,0,50%);
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    color: white;
+}
+
+#odin-banner {
+    height: 9rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: antiquewhite;
+}
+
+.footer {
+    position: absolute;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(211,211,211, 0.2);
+    /* gap: 4rem; */
+    --margin-val: 15rem;
+    --padding-val: 4rem;
+}
+
+.words {
+    font-size: 1.6rem;
+    padding: 2rem 5rem 2rem 10rem;
+    margin-right: var(--margin-value);
+    font-weight: bold;
+}
+
+.form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 5rem 2rem 10rem;
+    gap: 1rem;
+    box-shadow: 5px 5px 9px rgb(231, 229, 229);
+}
+
+
+#dothis {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.passwords, .contact, .name {
+    display: flex;
+    gap: 6rem;
+}
+
+form > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+
+input {
+    font-size: 1.2rem;
+    border-radius: 4px;
+    padding: 0.4rem;
+    border-color: rgb(211,211,211, 0.2);
+    border-width: 1px;
+    /* border-color: grey; */
+}
+
+input:focus { 
+    outline: none !important;
+    border-color: rgb(0,52,240);
+    border-width: 1.5px;
+    box-shadow: 3px 3px 7px rgb(202, 200, 200);
+}
+
+
+.interact {
+    margin-top: 2rem; 
+    margin-left: 10rem;
+}
+
+button {
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #596D48;
+    color: white;
+    box-shadow: 3px 3px 7px rgb(202, 200, 200);
+    font-size: 1.3rem;
+}
+
+.interact > div {
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+}
+
+.interact > div > div {
+    display: inline;
+    font-weight: bold;
+    color: #596D48;
+}
